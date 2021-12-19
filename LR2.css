@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Squada+One&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_home{
+   
+    height: 100vh;
+}
+/*Home Page*/
+
+.home_page_header{
+    width: 100%;
+    background-color: #2c0d53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    ;
+}
+
+.home_page_header img{
+   
+    width: 100%;
+}
+
+
+
+.home_page_header h1{
+    background: linear-gradient(rgb(86, 188, 228),#d335a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Squada One', cursive;
+    text-shadow: -6px 6px 6px white;
+    color: rgb(202, 230, 240);
+    position: absolute;
+    font-size:7rem;
+    user-select: none;
+}
+
+.home_page2{
+    position: relative;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_page2 h1{
+    color:#d335a6;
+}
+.home_video{
+    background-image: linear-gradient(#060d1d,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50vh;
+}
+.home_page_facts{
+    height: 80vh;
+    flex-direction: column;
+    background-image: linear-gradient(#d335a6,rgb(86, 188, 228));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.fact1, .fact2, .fact3, .fact4{
+    flex-direction: column;
+    display: flex;
+    width: 75%;
+}
+
+.fact1 p,.fact2 p, .fact3 p, .fact4 p{
+    font-size: 120%;
+}
+
+.home_contacth1{
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: rgb(86, 188, 228);
+}
+
+.home_contact{
+    background-image: linear-gradient(rgb(86, 188, 228),#d335a6);
+    height: 60vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_contact a{
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 120%
+}
+.home_contact a:hover{
+    color: rgb(99, 98, 98);
+}
+
+.home_formdiv{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.home_formdiv{
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(86, 188, 228);
+    width: 700px;
+}
+
+.home_form{
+    width: 75%;
+
+}
+
+.home_form h1{
+    color: #7f90d0;
+}
+
+.home_form input{
+    background-color: #c643ac;
+    height: 4vh;
+    width: 50%;
+    font-size: 20px;
+}
+
+.container_home .footer p{
+    color: #c643ac;
+}
+
+
+.home_form input::placeholder{
+    padding-left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.namesurname input, .emailadress input{
+    width: 100%;
+    border: 0ch;
+}
+
+.namesurname input{
+    background-image: linear-gradient(#7f90d0,#8e80c9);
+    
+
+}
+
+.emailadress input{
+    border: 0ch;
+    background-image: linear-gradient(#8e80c9,#9874c3);
+}
+
+.writeamessage textarea{
+    padding-left: 10px;
+    border: 0ch;
+    height: 20vh ;
+    font-size: 20px;
+    width: calc(100% - 10px);
+    background-image: linear-gradient(#9874c3,#bf4cb1);
+}
+
+.writeamessage textarea::placeholder{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+/*navbar start*/
+
+.container_home .navbar_logo img{
+    border-radius: 50%;
+}
+
+.navbar_logo a img{
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+
+    width: 7.8vh;
+    
+}
+.navbar {    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 8vh;
+    width: 100%;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 5px;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0% 45px;
+    margin-top: 2vh;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(86, 188, 228);
+    font-size: 22px;
+    transition: 0.7s;
+}
+.navbar ul li a:hover{
+    color: orange;
+    font-size: 130%;
+    
+}
+/* Navbar end*/
+
+/* University start*/
+.container_uni nav li a{
+    color: rgb(247, 252, 0);
+}
+
+.uni_photo{
+    background-color: rgb(247, 252, 0);
+}
+.uni_photo img{
+    position: relative;
+    width: 100%;   
+}
+  
+.uni_magnush1{
+    position: relative;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color:rgb(247, 252, 0);   
+}
+
+.uni_magnus{
+    background-color: rgb(247, 252, 0);
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.uni_magnush2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 75%;
+    
+}
+
+.uni_magnus a{
+    text-decoration: none;
+    color:black;
+}
+
+.uni_magnus a:hover{
+color: rgb(99, 98, 98);
+
+
+}
+
+.uni_magnus p{
+    font-size: 25px;
+
+}
+
+.uni_about{
+    position: relative;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color:rgb(247, 252, 0);    
+}
+
+
+
+/* Uni stats start*/
+.uni_admission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(247, 252, 0);
+    height: 70vh;
+
+}
+
+.deneme1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 75%;
+
+}
+
+.uni_admission .uni_admissionh1{
+    position: relative;
+    margin-top: 15px;
+  
+}
+
+.uni_admission .uni_admissionp1{
+    position: relative;
+    font-size: 25px;
+
+}
+
+.uni_ratioall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 75%;
+    margin-left: 200px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.uni_ratio{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.uni_ratioh1{
+    position: relative;
+    
+}
+.uni_ratio2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .uni_ratioh2{
+    position: relative;
+    
+ }
+ .uni_ratio3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+ }
+
+ .uni_ratioh3{
+    position: relative;
+    
+
+ }
+ /* Uni stats end*/
+/*History*/
+
+ .uni_historyh1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: black;
+ }
+.uni_historyh1 h1{
+    position: relative;
+    
+    color:rgb(247, 252, 0);   
+
+}
+.uni_historyall{
+    background-color: rgb(247, 252, 0);
+}
+.uni_history{
+    background-color: rgb(247, 252, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:auto;
+    height: 50vh;   
+    width: 75%;
+}
+.uni_history p{
+    position: relative;
+    font-size: 25px;
+}
+.uni_history a{
+    position:relative;
+    text-decoration: none;
+    color: black;
+    width: 300%;
+    transition: 0.7s;
+}
+.uni_history a :hover{
+    transition: 0.7s;
+    color: grey  ;
+    font-size: 190% ;
+}
+
+
+/*History end*/
+/*University page end*/
+
+.footer{
+    
+    position: relative;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}   
+
+/*
+.footer img{
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    right: 1%;
+    width: 10vh;
+}
+
+.footer hr{
+    top: 20%    ;
+    background-color: rgb(247, 252, 0);
+    border: none;
+    height: 5px;
+}
+*/
+
+.footer p{
+    position: relative;
+    color: rgb(247, 252, 0);
+    
+}
+
+/*Project start*/
+.container_project .navbar{
+    background-color: rgb(86, 188, 228);
+   
+}
+.container_project .navbar li a{
+    color: black;
+}
+
+.container_project .footer p{
+    color: rgb(29, 121, 158);
+}
+
+.card_all{
+    background-image: linear-gradient(rgb(86, 188, 228),rgb(43, 153, 197));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 82vh;
+    box-sizing: border-box;
+}
+
+
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 100vh;
+    height: 50vh;
+    position: absolute;
+    transition: 1s;
+}
+
+.card .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.card .circle::before{
+   
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(86, 188, 228);
+    clip-path: circle(200px at center);
+    transition: 0.5s;
+    
+}
+
+.card:hover .circle::before{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    clip-path: circle(700px at center);
+    background-image: linear-gradient(blue,blue);
+}
+
+.card img{
+    height: 420px;
+    border-radius: 50%  ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.card:hover img{
+    left: 78%;
+}
+
+.card .content{
+    margin-left: -40%;
+    position: relative;
+    width: 50%;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .content {
+    left: 0ch;
+    opacity: 1;
+    visibility: visible;
+}  
+
+.card .content h2,.card .content p {
+    line-height: 2em;
+    color: azure;
+}
+
+.project_videoh1{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    background-color: rgb(86, 188, 228);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: linear-gradient(rgb(43, 153, 197),rgb(86, 188, 228));
+}
+
+.project_video_frame{
+    min-width: 50%;
+    min-height: 80% ;
+}
+
+/*Project end*/ 
+/* Members page*/
+
+.container_members .footer p{
+    color: #00c2a8;
+    
+}
+
+.container_members nav{
+    background-color: #04a690;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.container_members nav li a{
+    color: black;
+}
+
+
+.memberheader {
+    
+    height: 8vh;
+    background-color: #00c2a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.photoall_frame{
+    background-image: linear-gradient(#b8f7ee,#75c9be);
+}
+.photoall{      
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+    height: 864px;
+    
+}
+
+.photo1, .photo2 , .photo3, .photo4, .photo5, .photo6  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+    background-color: #00c2a8;
+    height: 392px;
+    width: 240px;
+    margin: 20px;
+
+    align-items: center;
+
+}
+
+
+.photoall div a img{
+    max-width: 90%;
+}
+
+.photo_image1, .photo_image2, .photo_image3,.photo_image4,.photo_image5,.photo_image6{
+    border: 2px black solid;
+    border-radius: 30%;
+    max-width:92%;
+    max-height:92%;
+    margin: 3%;
+}
+
+.photo1_name, .photo2_name,.photo3_name,.photo4_name,.photo5_name,.photo6_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.photo1_media,.photo2_media,.photo3_media,.photo4_media,.photo5_media,.photo6_media{
+    margin: auto;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 111px;
+    width: 240px;
+    
+}
+
+
+
+.photo1_media a ,.photo2_media a,.photo3_media a,.photo4_media a,.photo5_media a,.photo6_media a{
+   
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    max-width: 30%;
+}
+
+.photo1_media a:hover img, .photo2_media a:hover img,.photo3_media a:hover img,.photo4_media a:hover img,.photo5_media a:hover img,.photo6_media a:hover img{
+    transition: 0.6s;
+    max-width: 105%;
+}
+
+.photoall hr{
+    display: flex;
+    margin: auto;
+    width: 220px;
+    background-color:black;;
+    border: none;
+    height: 1px;
+}
+
+.blank_members{
+    height: 8vh;
+    background-color: #00c2a8;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.members_labrats{
+    font-family: 'Roboto Mono', monospace;
+}
+/*Members end*/
